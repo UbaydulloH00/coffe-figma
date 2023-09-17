@@ -32,7 +32,7 @@ body{
 }
 .header__menu{
     /* position: fixed; */
-    /* width: 1200px; */
+    /* width: 1280px; */
     display: flex;
     padding-bottom: 50px;
     justify-content: space-between;
@@ -64,10 +64,10 @@ body{
     border-radius: 15px;
 }
 .header__hero-text{
-    position: absolute;
-    top: 150px;
-    left: 295px;
     z-index: 2;
+    position: relative;
+    margin-top: -550px;
+    margin-left: 100px;
 }
 .header__hero-text h1{
     color: #FEFCF7;
@@ -108,6 +108,9 @@ body{
     font-style: normal;
     font-weight: 900;
     line-height: 25px; /* 138.889% */    
+}
+main{
+    margin-top: 100px;
 }
 .main__text img{
     width: 1250px;
@@ -179,8 +182,8 @@ body{
     line-height: 26px; /* 162.5% */
 }
 .main__choose{
-    left: 280px;
-    position: absolute;
+    margin-left: 100px;
+    position: relative;
     z-index: 2;
     margin-top: -231px;
     display: flex;
@@ -221,4 +224,157 @@ body{
     opacity: 0.8;
     letter-spacing: 1px;
     line-height: 26px; /* 162.5% */
+}
+.works{
+    margin-left: 100px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    color: #83888F;
+    font-family: "Fraunces" 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+}
+.oval{
+    width: 31px;
+    height: 31px;
+    border-radius:50%;
+    border: 1px solid #0E8784;
+
+}
+.path{
+    width: 380px;
+    height: 2px;
+    background-color:#FDD6BA;
+}
+.main__oval{
+    margin-left: 100px;
+    display: flex;
+    align-items:center;
+    padding-bottom: 72px;
+}
+.main__make-coffe{
+    display: flex;
+    margin-left: 100px;
+    gap: 105px;
+}
+.main__make-coffe img{
+    width: 101px;
+    height: 71px;
+}
+.main__make-coffe h3{
+    margin-top: 38px;
+    color: #333D4B;
+    font-family: "Fraunces" 9pt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+}
+.main__make-coffe p{
+    margin-top: 43px;
+    color: #333D4B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.main__make-coffe-button{
+    border-radius:6px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 64px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+}
+.main__make-coffe-button:hover{
+    background: #66D2CF;
+    color: white;
+    border: none;
+}
+.main__make-coffe-button p{
+    text-align: center;
+    font-family: "Fraunces" 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 138.889% */ 
+}
+.container__footer{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0% auto;
+    height: 120px;
+    background: #2C343E;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 85px;
+    margin-left: 85px;
+    padding-top: 47px;
+}
+.footer__menu{
+    display: flex;
+    gap: 33px;
+
+}
+.footer__menu a{
+    text-decoration: none;
+    color: #83888F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+.footer__menu a:hover{
+    color: white;
+    font-weight: 900;
+}
+.footer__masseng{
+    display: flex;
+    gap: 30px;
+}
+.footer__masseng a{
+    text-decoration: none;
+    filter: contrast(50%);
+}
+.footer__masseng a:hover{
+    filter: contrast(200%);
+}
+@media screen and (max-width:800px) {
+    .container{
+        width: 100%;
+        max-width: 688px;
+    }
+    .header__hero-img img{
+        width: 688px;
+    }
+    .main__statsu{
+        margin-left: 97px;
+        display: block;
+    }
+    .main__text img{
+        width: 688px;
+    }
+    .main__choose{
+        display: flex;
+        flex-direction: column;
+        align-items:center
+        justify-content:center;
+        gap: 24px;
+    }
+    .main__choose section{
+        display: flex;
+        gap: 24px;
+        width: 573px;
+        height: 180px;
+    }
 }
