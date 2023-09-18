@@ -349,6 +349,12 @@ main{
 .footer__masseng a:hover{
     filter: contrast(200%);
 }
+@media screen and (max-width:1200px) {
+    .container{
+        width: 100%;
+        max-width: 1140px;
+    }
+}
 @media screen and (max-width:800px) {
     .container{
         width: 100%;
