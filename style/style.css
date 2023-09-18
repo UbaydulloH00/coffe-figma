@@ -77,7 +77,7 @@ body{
     font-weight: 900;
     line-height: 72px; /* 100% */    
 }
-.header__hero-text p{
+.header__hero-text-p{
     opacity: 0.9;
     letter-spacing: 2px;
     color: #FEFCF7;
@@ -356,18 +356,99 @@ main{
     }
     .header__hero-img img{
         width: 688px;
+        height: 500px;
     }
+    .header__hero-text{
+        width: 398px;
+        height: 292px;
+    }
+    .header__hero-text h1{
+        color: #FEFCF7;
+        font-family: "Fraunces" 9pt;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px; /* 100% */
+        font-size: 48px;
+        margin-top: 100px;
+    }
+    .header__hero-text-p{
+        margin-bottom: 40px;
+        margin-top: 24px;
+        width: 372px;
+        height: 75px;
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 166.667% */           
+    }
+    .header__hero-text-button{
+        margin-top: 100px;
+        border-radius:6px;
+        background-color: transparent;
+        border: 1px solid white;
+        margin-top: 50px;
+        width: 217px;
+        height: 56px;
+        flex-shrink: 0;
+    }
+    .header__hero-text-button:hover{
+        background: #66D2CF;    
+    }
+    .header__hero-text-button p{
+        color: #FEFCF7;
+        text-align: center;
+        font-family: Fraunces 9pt;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px; /* 138.889% */    
+}
     .main__statsu{
+        width: 573px;
+        height: 868px;
+        flex-shrink: 0;
         margin-left: 97px;
         display: block;
     }
     .main__text img{
         width: 688px;
+        height: 118px;
+    }
+    .main__statsu section{
+        display: flex;
+        /* gap: 20px; */
+    }
+    .main__statsu img{
+        margin-top: 30px;
+        width: 256px;
+        height: 193px;
+        flex-shrink: 0;
+    }
+    .main__statsu span{
+        margin-top: 50px;
+    }
+    .main__statsu:last-child{
+        margin-bottom: 100px;
+    }
+    .main__taklif{
+        position: relative;
+        z-index: 1; 
+        margin-top: 1000px;
+        width: 688px;
+        height: 577px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #2C343E;
     }
     .main__choose{
+        margin-left: 0%;
+        margin-bottom: 500px;
         display: flex;
         flex-direction: column;
-        align-items:center
+        align-items:center;
         justify-content:center;
         gap: 24px;
     }
@@ -377,4 +458,113 @@ main{
         width: 573px;
         height: 180px;
     }
+    .main__choose img{
+        padding: 0%;
+        margin-top: 62px;
+        margin-left: 72px;
+    }
+    .main__choose span{
+        margin-top: 0;
+        margin-left: 55px;
+    }
+    .main__choose span h3,p{
+        margin: 0%;
+        padding: 0%;
+    }
+    .main__choose span h3{
+        margin-top: 41px;
+    }
+    .main__oval{
+        margin-left: 40px;
+        margin-bottom: 50px;
+        padding: 0%;
+        width: 550px;
+    }
+    .oval{
+        width: 31px;
+        height: 20px;
+    }
+    .main__oval .path{
+        width: 380px;
+    }
+    .works{
+        margin-left: 40px;
+    }
+    .main__make-coffe{
+        display: flex;
+        gap: 10px;
+        padding: 0%;
+        margin: 0%;
+        width: 688px;
+        height: 622px;
+    }
+    .main__make-coffe section{
+        margin-left: 40px;
+        width: 223px;
+        height: 371px;
+    }
+    .main__make-coffe img{
+        width: 90px;
+        height: 71px;
+    }
+    .main__make-coffe h3{
+        margin-top: 38px;
+        color: #333D4B;
+        font-family: "Fraunces" 9pt;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; /* 112.5% */
+    }
+    .main__make-coffe p{
+        /* width: 223px;
+        height: 154px; */
+        margin-top: 43px;
+        color: #333D4B;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 162.5% */
+    }
+    .main__make-coffe-button{
+        border-radius:6px;
+        background-color: transparent;
+        border: 1px solid black;
+        margin-top: 64px;
+        margin-bottom: 200px;
+        margin-left: 40px;
+        width: 217px;
+        height: 56px;
+        flex-shrink: 0;
+    }
+    .main__make-coffe-button:hover{
+        background: #66D2CF;
+        color: white;
+        border: none;
+    }
+    .main__make-coffe-button p{
+        text-align: center;
+        font-family: "Fraunces" 9pt;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px; /* 138.889% */ 
+    }
+    footer{
+        width: 688px;
+        height: 270px;
+    }
+    .container__footer{
+        margin-right: 40px;
+        margin-left: 40px;
+        width: 640px;
+        height: 270px;
+        margin-left: 40px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
 }
