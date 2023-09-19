@@ -67,6 +67,7 @@ body{
     background-image: url("../img/Bitmap.png");
     background-size: cover;
     border-radius: 20px;
+    background-position:center;
 
 }
 .header__hero-text{
@@ -361,6 +362,7 @@ main{
         max-width: 90%;
     }
     .header__hero{
+        background-size:cover;
        background-position: center;
     }
     .main__text img{
