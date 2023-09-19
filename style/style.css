@@ -571,6 +571,9 @@ main{
     .main__make-coffe-button{
         margin-left: 75px;
     }
+    .works {
+        text-align: center;
+    }
     .container__footer{
         margin-left: 195.5px;
         text-align: center;
