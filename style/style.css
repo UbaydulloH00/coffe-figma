@@ -367,22 +367,73 @@ main{
         display: flex;
         flex-direction: column;
     }
+    .main__statsu section{
+        display: flex;
+        margin-left: 150px;
+    }
+    .main__statsu span{
+        margin-top: 40px;
+    }
     .main__taklif{
-         max-width: 90%;
+        margin-top: 1150px;
+        max-width: 90%;
     }
     .main__choose{
         display: flex;
         flex-direction: column;
     }
+    .main__choose section{
+        display: flex;
+        gap: 10px;
+        max-width: 80%;
+        width: 750px;
+        height: 180px;
+    }
+    .main__choose section span{
+        margin-left: 70px;
+    }
+    .main__choose section h3{
+        padding: 0%;
+        margin-top: 10px;
+    }
+    .main__choose section p{
+       padding: 0%;
+       margin-top: 10px;
+    }
+    .main__choose section img{
+        margin-left: 70px;
+        margin-top: 62px;
+    }
+    .works{
+        margin-left: 40px;
+    }
+    .path{
+        width: 300px;
+    }
     .main__oval{
+        margin-left: 40px;
         max-width: 90%;
     }
     .main__make-coffe{
         max-width: 90%;
+        margin-left: 40px;
     }
-
+    .main__make-coffe-button{
+        margin-left: 40px;
+    }
     footer{
         max-width: 90%;
+       
+    }
+    .footer{
+        
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 65px;
+    }
+    .container__footer{
+        height: 270px;
     }
 
 }
