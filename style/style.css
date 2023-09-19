@@ -360,6 +360,9 @@ main{
     .container{
         max-width: 90%;
     }
+    .header__hero{
+       background-position: center;
+    }
     .main__text img{
         max-width: 90%;
     }
