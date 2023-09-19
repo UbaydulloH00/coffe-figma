@@ -443,3 +443,9 @@ main{
     }
 
 }
+@media screen and (max-width:1024px) {
+    .main__statsu section{
+        display: flex;
+        margin-left: 100px;
+    }
+}
