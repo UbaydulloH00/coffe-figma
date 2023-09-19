@@ -439,6 +439,7 @@ main{
     }
     .container__footer{
         height: 270px;
+        margin-left: 40px;
     }
 
 }
