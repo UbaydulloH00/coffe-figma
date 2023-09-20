@@ -575,8 +575,7 @@ main{
         text-align: center;
     }
     .container__footer{
-        margin-left: 195.5px;
-        text-align: center;
+       margin: 0% auto;
         width: 327px;
         height: 346px;
 
